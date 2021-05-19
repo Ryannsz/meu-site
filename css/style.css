@@ -1,0 +1,393 @@
+*{
+    padding:: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+nav {
+    background:#8B8B83;
+    height: 134px;
+    width: 100%;
+}
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    position: relative;
+    top: 15px;
+    position: relative;
+    left: 35%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+v ul li a{
+    color: black;
+    font-size: 17px;
+    padding:  7px 13px;
+    border-radius:  3px;
+    text-transform: uppercase;
+}
+a.interactive,a:hover{
+    background: #0bd136;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px) {
+    .checkbtn{
+        display: block;
+    }
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background: #34495e;
+}
+.slidershow{
+  width: 1300px;
+  height: 700px;
+  overflow: hidden;
+}
+.middle{
+  position: absolute;
+  top: 62.5%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.navigation{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.bar{
+  width: 50px;
+  height: 10px;
+  border: 2px solid #fff;
+  margin: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.bar:hover{
+  background: #fff;
+}
+
+input[name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+  width: 500%;
+  height: 100%;
+  display: flex;
+}
+
+.slide{
+  width: 20%;
+  transition: 0.6s;
+}
+.slide img{
+  width: 100%;
+  height: 100%;
+}
+
+#r1:checked ~ .s1{
+  margin-left: 0;
+}
+#r2:checked ~ .s1{
+  margin-left: -20%;
+}
+#r3:checked ~ .s1{
+  margin-left: -40%;
+}
+
+.rodape {
+  position: absolute;
+  top: 1500px;
+  background: #4F4F4F;
+  height: 122px;
+  width: 100%;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+}
+.white{
+  position: absolute;
+  top: 980px;
+  background: white;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+}
+.welcome{
+  position: relative;
+  top: 50px;
+  left: 100px;
+
+  width: 400px;
+  height: 40px;
+}
+.boxWhite{
+  position: relative;
+  top: 100px;
+  left: 300px;
+  width: 1300px;
+  height: 900px;
+    background: white;
+}
+.menu{
+  width: 100%;
+  height: 50px;
+  background: white;
+  text-align: center;
+  position: relative;
+  top: 0px;
+}
+.geralmenu{
+  display: inline-block;
+  text-align: center;
+}
+.home{
+  position: relative;
+  left: -1300px;
+  top:-13px;
+}
+.sobre{
+  position: relative;
+  top: -96px;
+  left: -1000px;
+
+}
+.port{
+  position: relative;
+  top: -178px;
+  left:-700px;
+}
+.contact{
+  position: relative;
+  top: -260px;
+  left:-400px;
+}
+.h3contato{
+  text-align: center;
+  position: relative;
+  top: 25px;
+}
+.twitter{
+  position: relative;
+  width: 300px;
+  left: 150px;
+}
+.whats{
+  position: relative;
+  width: 300px;
+  left: 75px;
+  top: 50px;
+}
+.insta{
+  position: relative;
+  width: 300px;
+  left: 40px;
+}
+.github{
+  position: relative;
+
+  left: 92px;
+  width: 300px;
+  top: 40px;
+}
+.form{
+  position: relative;
+  left:750px;
+  top:-600px;
+  width: 400px;
+}
+#nome{
+  width: 400px;
+}
+#mail{
+  width: 400px;
+}
+#assunto{
+  width: 400px;
+}
+#msg{
+  width: 400px;
+  height: 200px;
+}
+#h4msg{
+  text-align: center;
+}
+.telefone{
+  width: 400px;
+  height: 190px;
+  border: solid 2px black;
+  text-align: center;
+}
+.boxWhite2{
+  position: relative;
+  top: 100px;
+  left: 300px;
+  width: 1300px;
+  height: 900px;
+    background: white;
+}
+#h3TextS{
+  position: relative;
+  top: 70px;
+  left: 120px;
+}
+#pTextS{
+  position: relative;
+  top: 70px;
+  left: 120px;
+  width: 600px;
+}
+#h3TextI{
+  position: relative;
+  top: 70px;
+  left: 120px;
+  width: 600px;
+}
+.log:after{
+  content: '|';
+  margin-left: 5px;
+  opacity: 1;
+  animation: pisca .7s infinite;
+ }
+ @keyframes pisca{
+  0%, 100%{
+      opacity: 1;
+  }
+  50%{
+      opacity: 0;
+  }
+}
+.titulosobre{
+  position: relative;
+  top:27px;
+  left:37%;
+  width: 300px;
+}
+.minhaft{
+  position: relative;
+  top:-260px;
+  left: 70%;
+  width: 300px;
+  height: 350px;
+}
+.textoSobreD{
+  position: relative;
+  top: 55px;
+}
+#pTextI{
+  position: relative;
+  top: 70px;
+  left: 120px;
+  width: 600px;
+}
+  #pTextP{
+    position: relative;
+    top: 70px;
+    left: 120px;
+    width: 600px;
+  }
+  #h3TextP{
+    position: relative;
+    top: 70px;
+    left: 120px;
+  }
+  .boxWhite3{
+    position: relative;
+    top: 100px;
+    left: 300px;
+    width: 1300px;
+    height: 1200px;
+      background: white;
+  }
+  #projetos{
+    position: relative;
+    top:27px;
+    left:35%;
+    width: 600px;
+  }
+  #tituloprojeto{
+    position: relative;
+    top: 55px;
+    left: 5%;
+  }
+  #ptn{
+      position: relative;
+      top: 170px;
+      left: 11%;
+  }
+  .ptnIMG{
+    position: relative;
+    top:200px ;
+    left:11% ;
+  }
+  #blocodenotas{
+    position: relative;
+    top:-60px ;
+    left:57% ;
+  }
+  .ptnBloco{
+    position: relative;
+    top:-30px ;
+    left:57% ;
+  }
+  #cadastrocliente{
+    position: relative;
+    top:60px ;
+    left:27% ;
+  }
+  .imgcadastro{
+    position: relative;
+    top:100px ;
+    left:21% ;
+  }
+  .phoneicon{
+    position: relative;
+    top: 30px;
+  }
+  .numerophone{
+    position: relative;
+    top: 30px;
+  }
