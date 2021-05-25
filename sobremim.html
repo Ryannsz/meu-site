@@ -1,61 +1,108 @@
 <!DOCTYPE html>
 <html5>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Ryaanz - Home</title>
+  </head>
 
-    <head>
-        <link href="css/style.css" rel="stylesheet">
-        <title>Ryaanz - Sobre mim</title>
-        <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
-    </head>
-
-    <body>
-        <nav>
-            <label class="logo"><img src="img/logo.png" width="343px" height="104px"></label>
-            <div class="menu">
-            <ul>
-              <div class="geralmenu">
-              <div class="home">
-                <li><a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="interact" href="home.html">Home </a></li>
-              </div>
-              <div class="sobre">
-                <li><a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" href="sobremim.html">Sobre mim </a></li>
-              </div>
-              <div class="port">
-                <li><a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" href="portifolio.html">Portifólio </a></li>
-              </div>
-              <div class="contact">
-                <li><a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" href="contato.html">Contato</a></li>
-              </div>
-            </div>
-            </ul>
-          </div>
-
-        </nav>
-
-        <div class="boxWhite2">
-          
-          <h1 class="titulosobre">Sobre mim</h1>
-            <div class="textoSobreD">
-              <h3 id="h3TextS">Quem sou eu:</h3>
-              <p style="font-family: cursive; font-size: 18px" id="pTextS">Meu nome é Ryan Carvalho Bernardo, tenho 17 anos e moro em Feira de Santana, localizada no interior da Bahia.</p>
-              <br>
-              <h3 id="h3TextI">Meu interesse pela informática:</h3>
-              <p style="font-family: cursive; font-size: 18px" id="pTextI">Meu interesse pela informática surgiu desde quando era pequeno. Quando ganhei meu primeiro notebook comecei a jogar e,  me interessei muito em saber como tudo aquilo funcionava, e assim, cheguei em programação.</p>
-              <br>
-              <h3 id="h3TextP">A progamação:</h3>
-              <p style="font-family: cursive; font-size: 18px" id="pTextP">Com meu primeiro contato com a progamação, comecei a pesquisar diversas coisas e tentar aprender em tutoriais no Youtube. Meus primeiros projetos eram voltados nos jogos em que jogava, modificando coisas pequenas apenas com a finalidade de entender como funcionava.</p>
-            </div>
-            <img class="minhaft" src="img/minhaft2.jpeg">
+  <body>
+    <nav class="main-nav">
+      <label class="logo"
+        ><img src="img/logo.png" width="343px" height="104px"
+      /></label>
+      <div class="navigation">
+        <div class="menu">
+          <ul>
+            <li>
+              <a class="interact" href="home.html">Home </a>
+            </li>
+            <li>
+              <a href="sobremim.html">Sobre mim </a>
+            </li>
+            <li>
+              <a href="portifolio.html">Portifólio </a>
+            </li>
+            <li>
+              <a href="contato.html">Contato</a>
+            </li>
+          </ul>
         </div>
+        <div class="social-media">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/ryancb2017/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://api.whatsapp.com/send?phone=5575991179171"
+                target="_blank"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/ryanbrnds" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/RyaanzPog" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+    <div class="main-container">
+      <h1 class="about-me-heading">Sobre mim</h1>
+      <div class="about-me-container">
+        <div class="left-side-container">
+          <h3>Quem sou eu:</h3>
+          <p>
+            Meu nome é Ryan Carvalho Bernardo, tenho 17 anos e moro em Feira de
+            Santana, localizada no interior da Bahia.
+          </p>
+          <br />
+          <h3>Meu interesse pela informática:</h3>
+          <p>
+            Meu interesse pela informática surgiu desde quando era pequeno.
+            Quando ganhei meu primeiro notebook comecei a jogar e, me interessei
+            muito em saber como tudo aquilo funcionava, e assim, cheguei em
+            programação.
+          </p>
+          <br />
+          <h3>A progamação:</h3>
+          <p>
+            Com meu primeiro contato com a progamação, comecei a pesquisar
+            diversas coisas e tentar aprender em tutoriais no Youtube. Meus
+            primeiros projetos eram voltados nos jogos em que jogava,
+            modificando coisas pequenas apenas com a finalidade de entender como
+            funcionava.
+          </p>
+        </div>
+        <div class="right-side-container">
+          <img src="img/minhaft2.jpeg" />
+        </div>
+      </div>
+    </div>
 
-        <div class="rodape">
-            <footer>
-              <br>
-              <p>Feito por _Ryaanz</p>
-              <p>ryan.bernardo@hotmail.com</p>
-              <br>
-          </footer>
-          </div>
-    </body>
-
+    <footer>
+      <p>Feito por _Ryaanz</p>
+      <p>ryan.bernardo@hotmail.com</p>
+    </footer>
+  </body>
 </html5>

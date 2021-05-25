@@ -1,56 +1,121 @@
 <!DOCTYPE html>
 <html5>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Ryaanz - Home</title>
+  </head>
 
-    <head>
-        <link href="css/style.css" rel="stylesheet">
-        <title>Ryaanz - Portifólio</title>
-        <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″>
-    </head>
-
-    <body>
-        <nav>
-            <label class="logo"><img src="img/logo.png" width="343px" height="104px"></label>
-            <div class="menu">
-            <ul>
-              <div class="geralmenu">
-              <div class="home">
-                <li><a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="interact" href="home.html">Home </a></li>
-              </div>
-              <div class="sobre">
-                <li><a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" href="sobremim.html">Sobre mim </a></li>
-              </div>
-              <div class="port">
-                <li><a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" href="portifolio.html">Portifólio </a></li>
-              </div>
-              <div class="contact">
-                <li><a style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" href="contato.html">Contato</a></li>
-              </div>
-            </div>
-            </ul>
+  <body>
+    <nav class="main-nav">
+      <label class="logo"
+        ><img src="img/logo.png" width="343px" height="104px"
+      /></label>
+      <div class="navigation">
+        <div class="menu">
+          <ul>
+            <li>
+              <a class="interact" href="home.html">Home </a>
+            </li>
+            <li>
+              <a href="sobremim.html">Sobre mim </a>
+            </li>
+            <li>
+              <a href="portifolio.html">Portifólio </a>
+            </li>
+            <li>
+              <a href="contato.html">Contato</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-media">
+          <ul>
+            <li>
+              <a href="https://www.instagram.com/ryancb2017/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://api.whatsapp.com/send?phone=5575991179171"
+                target="_blank"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/ryanbrnds" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/RyaanzPog" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="main-container">
+      <div class="portfolio-container">
+        <h1 id="projetos">Meus projetos</h1>
+        <h2 id="tituloprojeto">
+          Dentre todos os meus projetos desde o início de carreira foram:
+        </h2>
+        <div class="projects-container">
+          <div class="project">
+            <a href="https://google.com" target="_blank">
+              <h5
+                class="project-title"
+                style="font-family: cursive; font-size: 18px"
+              >
+                Um projeto criado em Phython onde você informa <br />o link e o
+                nome do arquivo e ele é baixado.
+              </h5>
+              <img class="ptnIMG" src="img/ptn.png"
+            /></a>
           </div>
-
-        </nav>
-
-          <div class="boxWhite3">
-            <h1 id="projetos">Meus projetos</h1>
-            <div class="textProjeto">
-              <h3 id="tituloprojeto">Dentre todos os meus projetos desde o início de carreira foram:</h3>
-              <p id="ptn" style="font-family: cursive; font-size: 18px">Um projeto criado em Phython onde você informa <br>o link e o nome do arquivo e ele é baixado.</p>
-              <img class="ptnIMG" src="img/ptn.png">
-              <p id="blocodenotas" style="font-family: cursive; font-size: 18px">Outro projeto criado em Phython onde o programa<br> cria arquivos .txt modificados com um texto já inserido.</p>
-              <img class="ptnBloco" src="img/ptnBloco.png">
-              <p id="cadastrocliente" style="font-family: cursive; font-size: 18px">Um projeto criado em C, onde há cadastramento de clientes, foi feito<br>uma avaliação passada pelo professor Sidney de Lógica de Progamação.</p>
-              <img class="imgcadastro" src="img/cadastroc.png">
-            </div>
+          <div class="project">
+            <a href="https://google.com" target="_blank">
+              <h5
+                class="project-title"
+                style="font-family: cursive; font-size: 18px"
+              >
+                Outro projeto criado em Phython onde o programa<br />
+                cria arquivos .txt modificados com um texto já inserido.
+              </h5>
+              <img class="ptnBloco" src="img/ptnBloco.png"
+            /></a>
           </div>
-        <div class="rodape">
-            <footer>
-              <br>
-              <p>Feito por _Ryaanz</p>
-              <p>ryan.bernardo@hotmail.com</p>
-              <br>
-          </footer>
+          <div class="project">
+            <a href="https://google.com" target="_blank">
+              <h5
+                class="project-title"
+                style="font-family: cursive; font-size: 18px"
+              >
+                Um projeto criado em C, onde há cadastramento de clientes, foi
+                feito<br />uma avaliação passada pelo professor Sidney de Lógica
+                de Progamação.
+              </h5>
+              <img class="imgcadastro" src="img/cadastroc.png"
+            /></a>
           </div>
-    </body>
-
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>Feito por _Ryaanz</p>
+      <p>ryan.bernardo@hotmail.com</p>
+    </footer>
+  </body>
 </html5>
